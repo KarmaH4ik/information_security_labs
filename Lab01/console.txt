@@ -1,0 +1,20 @@
+┌──(kali㉿kali)-[~]
+└─$ cd information_security_labs 
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs]
+└─$ mkdir Lab01                 
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs]
+└─$ cd Lab01                                                               
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs/Lab01]
+└─$ mkdir dir1 dir2
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs/Lab01]
+└─$ touch dir1/file1.txt dir1/file2.txt dir1/file3.txt
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs/Lab01]
+└─$ mv dir1/* dir2/
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs/Lab01]
+└─$ 

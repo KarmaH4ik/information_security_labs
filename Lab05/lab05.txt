@@ -1,0 +1,144 @@
+┌──(kali㉿kali)-[~/Desktop]
+└─$ ^[[200~cat /etc/group
+zsh: bad pattern: ^[[200~cat
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ ~cat /etc/group
+Command '~cat' not found, but there are 16 similar ones.
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:kali
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:kali
+fax:x:21:
+voice:x:22:
+cdrom:x:24:kali
+floppy:x:25:kali
+tape:x:26:
+sudo:x:27:kali
+audio:x:29:kali
+dip:x:30:kali
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:kali
+sasl:x:45:
+plugdev:x:46:kali
+staff:x:50:
+games:x:60:
+users:x:100:kali
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+input:x:996:
+sgx:x:995:
+clock:x:994:
+kvm:x:993:
+render:x:992:
+netdev:x:101:kali
+mysql:x:102:
+scanner:x:103:saned,kali
+tss:x:104:
+systemd-timesync:x:991:
+kismet:x:105:
+_gophish:x:106:
+messagebus:x:990:
+tcpdump:x:107:
+_ssh:x:108:
+ssl-cert:x:109:postgres
+redis:x:110:_gvm
+i2c:x:111:
+plocate:x:112:
+mosquitto:x:113:
+redsocks:x:114:
+stunnel4:x:989:stunnel4
+Debian-snmp:x:115:
+bluetooth:x:116:kali
+sslh:x:117:
+avahi:x:118:
+_gvm:x:119:
+postgres:x:120:
+lpadmin:x:121:kali
+sambashare:x:988:
+nm-openvpn:x:122:
+inetsim:x:123:
+pipewire:x:987:
+wireshark:x:124:kali
+nm-openconnect:x:986:
+geoclue:x:125:
+lightdm:x:126:
+saned:x:127:
+polkitd:x:985:
+rtkit:x:128:
+colord:x:984:
+pcscd:x:983:
+kali-trusted:x:129:
+kali:x:1000:
+vboxsf:x:130:kali
+kaboxer:x:131:kali
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ sudo groupadd students
+[sudo] password for kali: 
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ cat /etc/group | grep students
+students:x:1001:
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ sudo groupadd students
+
+groupadd: group 'students' already exists
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ sudo adduser user2
+
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for user2
+Enter the new value, or press ENTER for the default
+        Full Name []: kali
+        Room Number []: kali
+        Work Phone []: kali
+        Home Phone []: kali
+        Other []: kali
+Is the information correct? [Y/n] y
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ sudo usermod -aG students user2
+
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ groups user2
+
+user2 : user2 users students
+                                                                             
+┌──(kali㉿kali)-[~/Desktop]
+└─$ su - user2
+
+Password: 
+┌──(user2㉿kali)-[~]
+└─$ ^C                                                                       
+
+┌──(user2㉿kali)-[~]
+└─$              

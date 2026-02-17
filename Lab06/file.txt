@@ -1,0 +1,51 @@
+┌──(kali㉿kali)-[~/information_security_labs/Lab06]
+└─$ touch file.txt
+
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs/Lab06]
+└─$ ls -la
+
+total 8
+drwxrwxr-x 2 kali kali 4096 Feb 16 20:39 .
+drwxrwxr-x 9 kali kali 4096 Feb 16 20:39 ..
+-rw-rw-r-- 1 kali kali    0 Feb 16 20:39 file.txt
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs/Lab06]
+└─$ sudo chown ВЛАДЕЛЕЦ файл
+
+[sudo] password for kali: 
+chown: invalid user: ‘ВЛАДЕЛЕЦ’
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs/Lab06]
+└─$ sudo chown ВЛАДЕЛЕЦ файл
+
+chown: invalid user: ‘ВЛАДЕЛЕЦ’
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs/Lab06]
+└─$ sudo chown user2 file.txt
+
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs/Lab06]
+└─$ ls -la
+
+total 8
+drwxrwxr-x 2 kali  kali 4096 Feb 16 20:39 .
+drwxrwxr-x 9 kali  kali 4096 Feb 16 20:39 ..
+-rw-rw-r-- 1 user2 kali    0 Feb 16 20:39 file.txt
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs/Lab06]
+└─$ sudo chgrp students file.txt
+
+                                                                             
+┌──(kali㉿kali)-[~/information_security_labs/Lab06]
+└─$ su - user2
+
+Password: 
+┌──(user2㉿kali)-[~]
+└─$ echo hello >> file.txt                                                   
+
+┌──(user2㉿kali)-[~]
+└─$ ^C                                                                       
+
+┌──(user2㉿kali)-[~]
+└─$              
