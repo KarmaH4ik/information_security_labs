@@ -1,4 +1,16 @@
-# Information Security — Lab Work
+#Information Security Labs
+This repository contains laboratory works for the Information Security course.
 
-This repository is dedicated to practical lab assignments completed as part of the **Information Security** course.  
-The work focuses on core security concepts and hands-on experience with Linux-based tools.
+All laboratory assignments will be completed on time according to the course deadlines and follow the requirements provided by the instructor.
+
+Student Information
+Name: Ermek Asanov
+ID: ae12352
+Course: Information Security
+University: American University of Central Asia (AUCA)
+Semester: Spring 2026
+
+Tools Used
+Kali Linux
+Bash / UNIX Shell
+Git & GitHub
