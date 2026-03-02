@@ -1,0 +1,44 @@
+VIM COMMANDS REFERENCE
+======================
+
+BASIC COMMANDS:
+i - Insert mode (ввод текста)
+ESC - Normal mode (режим команд)
+dd - Delete current line (удалить строку)
+:%d - Delete all content (удалить всё)
+:w - Save file (сохранить)
+:q - Quit (выйти)
+:wq - Save and quit (сохранить и выйти)
+
+NAVIGATION:
+h - left (влево)
+j - down (вниз)
+k - up (вверх)
+l - right (вправо)
+gg - go to first line (в начало)
+G - go to last line (в конец)
+
+EDITING:
+u - Undo (отмена)
+Ctrl+r - Redo (повтор)
+yy - Copy line (копировать строку)
+p - Paste (вставить)
+x - Delete character (удалить символ)
+
+SEARCH:
+/word - Search forward (поиск вперед)
+?word - Search backward (поиск назад)
+n - Next occurrence (следующее)
+N - Previous occurrence (предыдущее)
+
+VISUAL MODE:
+v - Visual mode (выделение текста)
+V - Visual line mode (выделение строк)
+Ctrl+v - Visual block mode (выделение блоком)
+
+ADVANCED:
+:set number - Show line numbers (показать номера строк)
+:sp - Split window (разделить окно)
+:tabnew - New tab (новая вкладка)
+:!command - Run shell command (выполнить команду)
+EOF

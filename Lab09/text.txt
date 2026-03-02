@@ -1,0 +1,33 @@
+1. Update
+sudo apt update
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+All packages are up to date.
+
+2. Install
+sudo apt install nginx
+nginx -v
+
+3. Check
+systemctl status nginx
+sudo systemctl stop nginx
+sudo systemctl start nginx
+sudo systemctl restart nginx
+
+4. Search
+apt search nginx
+
+5. Depend
+apt-cache depends nginx
+nginx
+  Depends: nginx-core
+  Depends: nginx-common
+  Recommends: ssl-cert
+  
+6. Update & Remove
+sudo apt upgrade nginx
+sudo apt remove nginx
+sudo apt purge nginx
+sudo apt autoremove
+ 
