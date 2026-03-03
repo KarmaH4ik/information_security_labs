@@ -1,23 +1,22 @@
 # Information Security Labs
 
-This repository contains laboratory works for the **Information Security** course.
+## Academic Integrity Receipt
 
-All laboratory assignments will be completed on time according to the course deadlines and will follow the requirements provided by the instructor.
+I, **Ermek Asanov** (Student ID: ae12352), a student at the American University of Central Asia (AUCA), enrolled in the **Information Security** course for the **Spring 2026** semester, hereby confirm the following:
 
----
+I agree to complete all laboratory assignments independently and submit them on time according to the course deadlines.
 
-## 👨‍🎓 Student Information
+I understand that all work submitted in this repository must comply with the academic integrity policies of AUCA.
 
-- **Name:** Ermek Asanov  
-- **Student ID:** ae12352  
-- **Course:** Information Security  
-- **University:** American University of Central Asia (AUCA)  
-- **Semester:** Spring 2026  
+I confirm that the laboratory tasks will be performed using the required tools and environments, including Kali Linux, Ubuntu Linux (VMware Fusion), Bash / UNIX Shell, Git, and GitHub.
+
+I acknowledge that any violation of academic rules may result in academic consequences according to university regulations.
 
 ---
 
-## 🛠️ Tools Used
-
-- Kali Linux  
-- Bash / UNIX Shell  
-- Git & GitHub
+**Student Name:** Ermek Asanov  
+**Student ID:** ae12352  
+**Course:** Information Security  
+**University:** American University of Central Asia (AUCA)  
+**Semester:** Spring 2026  
+**Date:** 3/3/2026
