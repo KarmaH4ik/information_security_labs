@@ -20,3 +20,9 @@ I acknowledge that any violation of academic rules may result in academic conseq
 **University:** American University of Central Asia (AUCA)  
 **Semester:** Spring 2026  
 **Date:** 3/3/2026
+
+# YouTube Links for Final Projects
+**Weather App**
+https://youtu.be/gWWE2w4eHiQ
+**Secure Password Generator**
+https://youtu.be/55rJg7ivjeo
